@@ -1,0 +1,7 @@
+{
+    "way": ["md5", "sha512"],
+	"private_key_dir": "private",
+	"public_key_dir": "public",
+	"data_uri": "data/password.json",
+	"key_length": 2048
+}
