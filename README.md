@@ -12,7 +12,9 @@ A password protect product for [Go language](http://golang.org).
 
 ####command
 - Windows
-> generate
+
+```
+      # generate
       mkdir keyadmin
       cd keyadmin
       mkdir data
@@ -25,13 +27,17 @@ A password protect product for [Go language](http://golang.org).
       } > config.json
       %GOPATH%\bin\generate
       ...
-> find and update
+      # update
       %GOPATH%\bin\password -update
       ...
+      # find
       %GOPATH%\bin\password -get
       ...
+```
 
 - Unix like
+
+```
 > generate
       mkdir keyadmin
       cd keyadmin
@@ -45,24 +51,34 @@ A password protect product for [Go language](http://golang.org).
       }' > config.json
       $GOPATH/bin/generate
       ...
-> find and update
+      # update
       $GOPATH/bin/password -update
       ...
+      # find
       $GOPATH/bin/password -get
       ...
-
+```
 ##Usage
 
 - common
+
+```
       <command> [-json <config>] [-pdb <password data>] 
       [-pri <private file>] [-pub <public file>] [-kl <key length>] 
       [-way <md5,sha1,...>]
+```
 - generate
+```
       generate 
+```
 - password
+```
       password [-get] [-getall] [-update]
+```
 - use
+```
       use [-domain] [-username]
+```
 
 
 ##ps
