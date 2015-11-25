@@ -1,4 +1,4 @@
-package passwordadmin
+package keyadmin
 
 import (
 	"net/url"

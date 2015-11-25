@@ -1,4 +1,4 @@
-package passwordadmin
+package keyadmin
 
 var testJsonDir = ""
 var testPassword = []struct {
