@@ -6,9 +6,7 @@ A password protect product for [Go language](http://golang.org).
 ##Quick start
 ####Install command
 
-      go get github.com/fatpigeon/KeyAdmin-go/cmd/generate
       go get github.com/fatpigeon/KeyAdmin-go/cmd/password
-      go get github.com/fatpigeon/KeyAdmin-go/cmd/user
 
 ####command
 - Windows
@@ -25,7 +23,7 @@ A password protect product for [Go language](http://golang.org).
           "data_uri": "data/password.json",^
           "key_length": 2048^
       } > config.json
-      %GOPATH%\bin\generate
+      %GOPATH%\bin\password -generate
       ...
       # update
       %GOPATH%\bin\password -update
@@ -49,7 +47,7 @@ A password protect product for [Go language](http://golang.org).
         "data_uri": "data/password.json",\
         "key_length": 2048\
       }' > config.json
-      $GOPATH/bin/generate
+      $GOPATH/bin/password -generate
       ...
       # update
       $GOPATH/bin/password -update
@@ -81,5 +79,3 @@ A password protect product for [Go language](http://golang.org).
 ```
 
 
-##ps
-- keep you private file
