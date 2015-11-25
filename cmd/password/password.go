@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
+	pa "github.com/fatpigeon/KeyAdmin-go/src/keyadmin"
 	"github.com/howeyc/gopass"
-	pa "keyadmin"
 	"log"
 	"os"
 	"strings"
